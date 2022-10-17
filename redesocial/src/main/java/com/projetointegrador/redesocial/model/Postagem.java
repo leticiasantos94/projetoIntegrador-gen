@@ -43,7 +43,7 @@ public class Postagem {
 	
 	@ManyToOne
 	@JsonIgnoreProperties("postagem")
-	private Usuarios usuario;	
+	private Usuario usuario;	
 	
 	public Long getId() {
 		return id;
